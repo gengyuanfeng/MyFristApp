@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A9DB2D71C891F71000A1D41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9DB2D61C891F71000A1D41 /* main.m */; };
+		7A9DB2DA1C891F71000A1D41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9DB2D91C891F71000A1D41 /* AppDelegate.m */; };
+		7A9DB2DD1C891F71000A1D41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9DB2DC1C891F71000A1D41 /* ViewController.m */; };
+		7A9DB2E01C891F71000A1D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9DB2DE1C891F71000A1D41 /* Main.storyboard */; };
+		7A9DB2E21C891F71000A1D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A9DB2E11C891F71000A1D41 /* Assets.xcassets */; };
+		7A9DB2E51C891F71000A1D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9DB2E31C891F71000A1D41 /* LaunchScreen.storyboard */; };
+		7A9DB2F01C891F71000A1D41 /* MyFristAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9DB2EF1C891F71000A1D41 /* MyFristAppTests.m */; };
+		7A9DB2FB1C891F71000A1D41 /* MyFristAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9DB2FA1C891F71000A1D41 /* MyFristAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A9DB2EC1C891F71000A1D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9DB2CA1C891F71000A1D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9DB2D11C891F71000A1D41;
+			remoteInfo = MyFristApp;
+		};
+		7A9DB2F71C891F71000A1D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9DB2CA1C891F71000A1D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9DB2D11C891F71000A1D41;
+			remoteInfo = MyFristApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A9DB2D21C891F71000A1D41 /* MyFristApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFristApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9DB2D61C891F71000A1D41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A9DB2D81C891F71000A1D41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A9DB2D91C891F71000A1D41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A9DB2DB1C891F71000A1D41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A9DB2DC1C891F71000A1D41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A9DB2DF1C891F71000A1D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A9DB2E11C891F71000A1D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A9DB2E41C891F71000A1D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A9DB2E61C891F71000A1D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9DB2EB1C891F71000A1D41 /* MyFristAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFristAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9DB2EF1C891F71000A1D41 /* MyFristAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFristAppTests.m; sourceTree = "<group>"; };
+		7A9DB2F11C891F71000A1D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A9DB2F61C891F71000A1D41 /* MyFristAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFristAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9DB2FA1C891F71000A1D41 /* MyFristAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFristAppUITests.m; sourceTree = "<group>"; };
+		7A9DB2FC1C891F71000A1D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A9DB2CF1C891F71000A1D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9DB2E81C891F71000A1D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9DB2F31C891F71000A1D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A9DB2C91C891F71000A1D41 = {
+			isa = PBXGroup;
+			children = (
+				7A9DB2D41C891F71000A1D41 /* MyFristApp */,
+				7A9DB2EE1C891F71000A1D41 /* MyFristAppTests */,
+				7A9DB2F91C891F71000A1D41 /* MyFristAppUITests */,
+				7A9DB2D31C891F71000A1D41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A9DB2D31C891F71000A1D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A9DB2D21C891F71000A1D41 /* MyFristApp.app */,
+				7A9DB2EB1C891F71000A1D41 /* MyFristAppTests.xctest */,
+				7A9DB2F61C891F71000A1D41 /* MyFristAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A9DB2D41C891F71000A1D41 /* MyFristApp */ = {
+			isa = PBXGroup;
+			children = (
+				7A9DB2D81C891F71000A1D41 /* AppDelegate.h */,
+				7A9DB2D91C891F71000A1D41 /* AppDelegate.m */,
+				7A9DB2DB1C891F71000A1D41 /* ViewController.h */,
+				7A9DB2DC1C891F71000A1D41 /* ViewController.m */,
+				7A9DB2DE1C891F71000A1D41 /* Main.storyboard */,
+				7A9DB2E11C891F71000A1D41 /* Assets.xcassets */,
+				7A9DB2E31C891F71000A1D41 /* LaunchScreen.storyboard */,
+				7A9DB2E61C891F71000A1D41 /* Info.plist */,
+				7A9DB2D51C891F71000A1D41 /* Supporting Files */,
+			);
+			path = MyFristApp;
+			sourceTree = "<group>";
+		};
+		7A9DB2D51C891F71000A1D41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A9DB2D61C891F71000A1D41 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7A9DB2EE1C891F71000A1D41 /* MyFristAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A9DB2EF1C891F71000A1D41 /* MyFristAppTests.m */,
+				7A9DB2F11C891F71000A1D41 /* Info.plist */,
+			);
+			path = MyFristAppTests;
+			sourceTree = "<group>";
+		};
+		7A9DB2F91C891F71000A1D41 /* MyFristAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A9DB2FA1C891F71000A1D41 /* MyFristAppUITests.m */,
+				7A9DB2FC1C891F71000A1D41 /* Info.plist */,
+			);
+			path = MyFristAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A9DB2D11C891F71000A1D41 /* MyFristApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9DB2FF1C891F71000A1D41 /* Build configuration list for PBXNativeTarget "MyFristApp" */;
+			buildPhases = (
+				7A9DB2CE1C891F71000A1D41 /* Sources */,
+				7A9DB2CF1C891F71000A1D41 /* Frameworks */,
+				7A9DB2D01C891F71000A1D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFristApp;
+			productName = MyFristApp;
+			productReference = 7A9DB2D21C891F71000A1D41 /* MyFristApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A9DB2EA1C891F71000A1D41 /* MyFristAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9DB3021C891F71000A1D41 /* Build configuration list for PBXNativeTarget "MyFristAppTests" */;
+			buildPhases = (
+				7A9DB2E71C891F71000A1D41 /* Sources */,
+				7A9DB2E81C891F71000A1D41 /* Frameworks */,
+				7A9DB2E91C891F71000A1D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A9DB2ED1C891F71000A1D41 /* PBXTargetDependency */,
+			);
+			name = MyFristAppTests;
+			productName = MyFristAppTests;
+			productReference = 7A9DB2EB1C891F71000A1D41 /* MyFristAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A9DB2F51C891F71000A1D41 /* MyFristAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9DB3051C891F71000A1D41 /* Build configuration list for PBXNativeTarget "MyFristAppUITests" */;
+			buildPhases = (
+				7A9DB2F21C891F71000A1D41 /* Sources */,
+				7A9DB2F31C891F71000A1D41 /* Frameworks */,
+				7A9DB2F41C891F71000A1D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A9DB2F81C891F71000A1D41 /* PBXTargetDependency */,
+			);
+			name = MyFristAppUITests;
+			productName = MyFristAppUITests;
+			productReference = 7A9DB2F61C891F71000A1D41 /* MyFristAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A9DB2CA1C891F71000A1D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "耿远风";
+				TargetAttributes = {
+					7A9DB2D11C891F71000A1D41 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					7A9DB2EA1C891F71000A1D41 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7A9DB2D11C891F71000A1D41;
+					};
+					7A9DB2F51C891F71000A1D41 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 7A9DB2D11C891F71000A1D41;
+					};
+				};
+			};
+			buildConfigurationList = 7A9DB2CD1C891F71000A1D41 /* Build configuration list for PBXProject "MyFristApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A9DB2C91C891F71000A1D41;
+			productRefGroup = 7A9DB2D31C891F71000A1D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A9DB2D11C891F71000A1D41 /* MyFristApp */,
+				7A9DB2EA1C891F71000A1D41 /* MyFristAppTests */,
+				7A9DB2F51C891F71000A1D41 /* MyFristAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A9DB2D01C891F71000A1D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9DB2E51C891F71000A1D41 /* LaunchScreen.storyboard in Resources */,
+				7A9DB2E21C891F71000A1D41 /* Assets.xcassets in Resources */,
+				7A9DB2E01C891F71000A1D41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9DB2E91C891F71000A1D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9DB2F41C891F71000A1D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A9DB2CE1C891F71000A1D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9DB2DD1C891F71000A1D41 /* ViewController.m in Sources */,
+				7A9DB2DA1C891F71000A1D41 /* AppDelegate.m in Sources */,
+				7A9DB2D71C891F71000A1D41 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9DB2E71C891F71000A1D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9DB2F01C891F71000A1D41 /* MyFristAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A9DB2F21C891F71000A1D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9DB2FB1C891F71000A1D41 /* MyFristAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A9DB2ED1C891F71000A1D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A9DB2D11C891F71000A1D41 /* MyFristApp */;
+			targetProxy = 7A9DB2EC1C891F71000A1D41 /* PBXContainerItemProxy */;
+		};
+		7A9DB2F81C891F71000A1D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A9DB2D11C891F71000A1D41 /* MyFristApp */;
+			targetProxy = 7A9DB2F71C891F71000A1D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A9DB2DE1C891F71000A1D41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A9DB2DF1C891F71000A1D41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A9DB2E31C891F71000A1D41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A9DB2E41C891F71000A1D41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A9DB2FD1C891F71000A1D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A9DB2FE1C891F71000A1D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A9DB3001C891F71000A1D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFristApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.scjy.MyFristApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A9DB3011C891F71000A1D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyFristApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.scjy.MyFristApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7A9DB3031C891F71000A1D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyFristAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.scjy.MyFristAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFristApp.app/MyFristApp";
+			};
+			name = Debug;
+		};
+		7A9DB3041C891F71000A1D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyFristAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.scjy.MyFristAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFristApp.app/MyFristApp";
+			};
+			name = Release;
+		};
+		7A9DB3061C891F71000A1D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyFristAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.scjy.MyFristAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyFristApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7A9DB3071C891F71000A1D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyFristAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.www.scjy.MyFristAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyFristApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A9DB2CD1C891F71000A1D41 /* Build configuration list for PBXProject "MyFristApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9DB2FD1C891F71000A1D41 /* Debug */,
+				7A9DB2FE1C891F71000A1D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9DB2FF1C891F71000A1D41 /* Build configuration list for PBXNativeTarget "MyFristApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9DB3001C891F71000A1D41 /* Debug */,
+				7A9DB3011C891F71000A1D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A9DB3021C891F71000A1D41 /* Build configuration list for PBXNativeTarget "MyFristAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9DB3031C891F71000A1D41 /* Debug */,
+				7A9DB3041C891F71000A1D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A9DB3051C891F71000A1D41 /* Build configuration list for PBXNativeTarget "MyFristAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9DB3061C891F71000A1D41 /* Debug */,
+				7A9DB3071C891F71000A1D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A9DB2CA1C891F71000A1D41 /* Project object */;
+}
